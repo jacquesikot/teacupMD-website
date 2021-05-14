@@ -14,38 +14,31 @@ SwiperCore.use([Thumbs, Autoplay]);
 const TESTIMONIALS_DATA = [
   {
     image: img1,
-    heading: 'Pierre Hackett',
-    designation: 'VP of Engineering',
+    heading: 'Jacques Ikot',
+    designation: 'Twitter',
     content:
-      'They are doing amazing job with hundred percent customer satisfaction, Love their work and would like to work with them again',
+      'Its brilliant and simple, get your medicine ordered in avery easy and pay on delivery, i love it!',
+  },
+  {
+    image: img2,
+    heading: 'Alex Abiola',
+    designation: 'Twitter',
+    content:
+      'The prices are amazing! Even with the delivery charge, the meds are still cheaper',
+  },
+  {
+    image: img3,
+    heading: 'Tina Tionge',
+    designation: 'Twitter',
+    content:
+      'They brought my meds on time, no delays, and the delivery guy was very friendly',
   },
   {
     image: img2,
     heading: 'Natalia Sanz',
-    designation: 'Head of Technology',
+    designation: 'Instagram',
     content:
-      'Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster.',
-  },
-  {
-    image: img3,
-    heading: 'Ece Akman',
-    designation: 'Senior Marketer',
-    content:
-      'Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal.',
-  },
-  {
-    image: img2,
-    heading: 'Natalia Sanz',
-    designation: 'Head of Technology',
-    content:
-      'Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional.',
-  },
-  {
-    image: img3,
-    heading: 'Ece Akman',
-    designation: 'Senior Marketer',
-    content:
-      'Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base.',
+      'I got to chat on whatsapp with a consultant for an isuues ive been having, teacup really helped ',
   },
 ];
 
@@ -154,7 +147,7 @@ const styles = {
         paddingBottom: ['0', null, null, null, null, '15px'],
         minHeight: ['auto', null, null, null, null, '50px'],
         '&.swiper-slide-thumb-active': {
-          borderColor: '#8D448B',
+          borderColor: '#0065FF',
         },
       },
       img: {

@@ -18,21 +18,21 @@ const CustomerSupport = () => {
               </Heading>
               <Text as="p">
                 We offer a risk-free trial period of up to two weeks. You will
-                only have to pay if you are happy with the developer and wish to
+                only have to pay if you are happy with the free tier and wish to
                 continue. If you are unsatisfied, we’ll refund payment or fix
                 issues on our dime period customers.
               </Text>
               <Text as="p" sx={styles.specialText}>
-                If you are happy with the developer and wish to continue. If you
+                If you are happy with the services and wish to continue. If you
                 are unsatisfied, we’ll refund payment or fix issues.
               </Text>
-              <Link path="/" sx={styles.link}>
+              {/* <Link path="/" sx={styles.link}>
                 Learn more <FaAngleRight />
-              </Link>
+              </Link> */}
             </Box>
           </Box>
           <Box sx={styles.col}>
-            <Image src={img1} alt="" />
+            <Image src={img1} alt="teacup customer support" />
           </Box>
         </Grid>
       </Container>

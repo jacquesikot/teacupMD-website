@@ -5,7 +5,7 @@ import { Link } from 'components/link';
 import { FaAngleRight, FaPlay } from 'react-icons/fa';
 import ModalVideo from 'react-modal-video';
 
-import videoImg from 'assets/video.png';
+import videoImg from 'assets/banner.svg';
 
 const VideoOne = () => {
   const [videoOpen, setVideoOpen] = useState(false);
@@ -17,34 +17,34 @@ const VideoOne = () => {
     <Box as="section" sx={styles.video}>
       <Container>
         <Heading as="h3">
-          Leading companies trust us <br /> to develop software
+          People who value health <br /> trust us to deliver
         </Heading>
         <Text as="p">
-          We believe it’s important for everyone to have access to software{' '}
-          <br />
-          especially when it comes to digital learning be navigate.
+          We believe it’s important for everyone to have access to quality
+          medicare <br />
+          at affordable rates, anytime.
         </Text>
-        <Link path="/" sx={styles.link}>
+        {/* <Link path="/" sx={styles.link}>
           Explore Details <FaAngleRight />
-        </Link>
+        </Link> */}
         <Box sx={styles.videoBox}>
           <Image src={videoImg} alt="" />
-          <Link
+          {/* <Link
             path="/"
             aria-label="video btn"
             onClick={handleClick}
             sx={styles.videoBtn}
           >
             <FaPlay />
-          </Link>
+          </Link> */}
         </Box>
       </Container>
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         isOpen={videoOpen}
         videoId="Cm3U-NgJb9I"
         onClose={() => setVideoOpen(false)}
-      />
+      /> */}
     </Box>
   );
 };
