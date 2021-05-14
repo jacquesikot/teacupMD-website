@@ -9,12 +9,13 @@ export default {
     background: '#FFFFFF', // body background color
     background_secondary: '#F9FBFD', // secondary background color
     border_color: '#E9EDF5', // border color
-    primary: '#8D448B', // primary button and link color
-    secondary: '#793677', // secondary color - can be used for hover states
+    primary: '#0065FF', // primary button and link color
+    secondary: '#D5F3E8', // secondary color - can be used for hover states
     black: '#0F2137', // black color
     gray: '#F8FAFC',
     muted: '#7B8188', // muted color
     accent: '#609', // a contrast color for emphasizing UI
+    dark: '#172B4D',
   },
   fonts: {
     body: 'DM Sans',
@@ -147,7 +148,7 @@ export default {
       transition: '500ms',
       fontSize: 2,
       '&:hover': {
-        bg: 'secondary',
+        bg: 'dark',
       },
     },
   },

@@ -7,7 +7,7 @@ import img1 from 'assets/partner-1-1.png';
 import img2 from 'assets/partner-1-2.png';
 import img3 from 'assets/partner-1-3.png';
 
-import bannerImg from 'assets/banner-image-1-1.png';
+import bannerImg from 'assets/heroImg1.png';
 
 const Banner = () => {
   return (
@@ -16,13 +16,13 @@ const Banner = () => {
         <Grid sx={styles.grid}>
           <Box sx={styles.content}>
             <Heading as="h3">
-              Great software is built with amazing developers
+              Your one stop shop for all medical needs and consultations
             </Heading>
             <Text as="p">
-              We help build and manage a team of world-class developers to bring
-              your vision to life
+              Consult the best medical professionals in your area and purchase
+              prescribed medication.
             </Text>
-            <Box as="form" sx={styles.form}>
+            {/* <Box as="form" sx={styles.form}>
               <Box as="label" htmlFor="subscribe" variant="styles.srOnly">
                 subscribe
               </Box>
@@ -35,7 +35,7 @@ const Banner = () => {
               <Button type="submit" sx={styles.form.button}>
                 Subscribe
               </Button>
-            </Box>
+            </Box> */}
             <Box sx={styles.partner}>
               <Text as="span">Sponsored by:</Text>
               <Box as="div">

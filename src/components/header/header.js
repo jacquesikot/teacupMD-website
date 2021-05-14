@@ -33,14 +33,14 @@ export default function Header({ className }) {
               </ScrollLink>
             ))}
           </Flex>
-          {/* 
+
           <Link
             path="/"
             ml={2}
-            label="Register Now"
+            label="Download Now"
             sx={styles.headerBtn}
             variant="buttons.primary"
-          /> */}
+          />
 
           <MobileDrawer />
         </Container>

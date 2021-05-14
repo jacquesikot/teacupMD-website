@@ -21,16 +21,16 @@ export default function Footer() {
       >
         <Box sx={styles.left}>
           <Logo />
+          <div sx={{ width: 20 }}></div>
           <Text as="p">
             &copy; {new Date().getFullYear()} All right reserved - Design &
-            Developed by RedQ, Inc
+            Developed by Teacup MD
           </Text>
         </Box>
         <Box sx={styles.right}>
           <Link path="/" label="Home" />
-          <Link path="/" label="Adversite" />
-          <Link path="/" label="Supports" />
-          <Link path="/" label="Marketing" />
+          <Link path="/" label="Services" />
+          <Link path="/" label="Privacy policy" />
           <Link path="/" label="FAQ" />
         </Box>
       </Container>

@@ -14,6 +14,7 @@ class CustomDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
             rel="stylesheet"
           />
+          {/* <link rel="icon" href="/teacupfavicon.svg" /> */}
         </Head>
         <body>
           <Main />

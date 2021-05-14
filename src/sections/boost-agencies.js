@@ -5,7 +5,7 @@ import { Link } from 'components/link';
 import { IoIosCheckmarkCircle } from 'react-icons/io';
 
 import { FaAngleRight } from 'react-icons/fa';
-import image1 from 'assets/boost-1-1.png';
+import image1 from 'assets/feature1.png';
 
 const BoostAgencies = () => {
   return (
@@ -15,9 +15,7 @@ const BoostAgencies = () => {
           <Flex sx={styles.col}>
             <Box sx={styles.content}>
               <Box sx={styles.titleBox}>
-                <Heading as="h3">
-                  Boost your agencies by choosing Ninja Developers
-                </Heading>
+                <Heading as="h3">We are here to help</Heading>
                 <Text as="p">
                   Create custom landing pages with Shades that convert more
                   visitors than any website, no coding required.
@@ -37,9 +35,9 @@ const BoostAgencies = () => {
                   Easy to customize plugins
                 </Text>
               </Box>
-              <Link path="/" sx={styles.link}>
+              {/* <Link path="/" sx={styles.link}>
                 Learn more <FaAngleRight />
-              </Link>
+              </Link> */}
             </Box>
           </Flex>
           <Flex sx={styles.col}>

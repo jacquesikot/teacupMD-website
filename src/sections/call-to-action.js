@@ -8,11 +8,11 @@ const CallToAction = () => {
       <Container sx={styles.container}>
         <Box sx={styles.inner}>
           <Heading as="h3">
-            Hire the world’s best developers <br />
-            and designers around!
+            Download our mobile apps now <br />
+            and get consulting!
           </Heading>
           <Box sx={styles.btnWrapper}>
-            <Button sx={styles.btn}>HIRE DEVELOPERS</Button>
+            <Button sx={styles.btn}>DOWNLOAD NOW</Button>
           </Box>
         </Box>
       </Container>

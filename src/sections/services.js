@@ -11,27 +11,23 @@ import icon4 from 'assets/icons/service-1-4.svg';
 const SERVICES_DATA = [
   {
     icon: icon1,
-    title: 'Unlimited Customization',
-    text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+    title: 'Best Professionals',
+    text: 'You get access to the best in class medical professionals in Zambia and overseas',
   },
   {
     icon: icon2,
-    title: 'Vector shape & resizable',
-    text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+    title: 'Purchase Medication',
+    text: 'With Teacup, you can upload your prescriptions and get a preiodic refill.',
   },
   {
     icon: icon3,
-    title: 'Editing freedom',
-    text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+    title: 'Chat & Video Call',
+    text: 'Chat and Video call with your favorite consultants at your convinient time.',
   },
   {
     icon: icon4,
-    title: 'Best Award history',
-    text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+    title: 'Book Appointments',
+    text: 'Book home visits and all other doctor appointements directly from our mobile apps.',
   },
 ];
 
@@ -40,8 +36,8 @@ const Services = () => {
     <Box sx={styles.services} id="services">
       <Container>
         <BlockTitle
-          slogan="Quality features"
-          title="Meet exciting feature of app"
+          slogan="Our Services"
+          title="Meet our exciting features"
           styles={styles.blockTitle}
         />
         <Grid sx={styles.grid}>

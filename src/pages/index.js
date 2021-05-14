@@ -26,7 +26,6 @@ export default function IndexPage() {
           <VideoOne />
           <Testimonials />
           <CustomerSupport />
-          <Feature />
           <CallToAction />
         </Layout>
       </StickyProvider>
