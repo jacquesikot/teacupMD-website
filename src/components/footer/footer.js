@@ -30,7 +30,7 @@ export default function Footer() {
         <Box sx={styles.right}>
           <Link path="/" label="Home" />
           <Link path="/" label="Services" />
-          <Link path="/" label="Privacy policy" />
+          <Link path="/privacy-policy" label="Privacy policy" />
           <Link path="/" label="FAQ" />
         </Box>
       </Container>

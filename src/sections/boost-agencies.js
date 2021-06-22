@@ -17,22 +17,23 @@ const BoostAgencies = () => {
               <Box sx={styles.titleBox}>
                 <Heading as="h3">We are here to help</Heading>
                 <Text as="p">
-                  Create custom landing pages with Shades that convert more
-                  visitors than any website, no coding required.
+                  Our in house doctors are more than happy to help with
+                  enquiries, second opinions and any other medical need you may
+                  have.
                 </Text>
               </Box>
               <Box as="ul" sx={styles.list}>
                 <Text as="li">
                   <IoIosCheckmarkCircle />
-                  Unlimited design possibility
+                  Immediate response
                 </Text>
                 <Text as="li">
                   <IoIosCheckmarkCircle />
-                  Completely responsive features
+                  Professional care
                 </Text>
                 <Text as="li">
                   <IoIosCheckmarkCircle />
-                  Easy to customize plugins
+                  Best in class professionals
                 </Text>
               </Box>
               {/* <Link path="/" sx={styles.link}>

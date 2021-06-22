@@ -17,7 +17,7 @@ const TESTIMONIALS_DATA = [
     heading: 'Jacques Ikot',
     designation: 'Twitter',
     content:
-      'Its brilliant and simple, get your medicine ordered in avery easy and pay on delivery, i love it!',
+      'Its brilliant and simple, get your medicine ordered very easily and pay on delivery, i love it!',
   },
   {
     image: img2,
@@ -38,7 +38,7 @@ const TESTIMONIALS_DATA = [
     heading: 'Natalia Sanz',
     designation: 'Instagram',
     content:
-      'I got to chat on whatsapp with a consultant for an isuues ive been having, teacup really helped ',
+      'I got to chat on whatsapp with a consultant for an isuues I have been having, teacup really helped ',
   },
 ];
 

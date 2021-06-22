@@ -17,17 +17,17 @@ const SERVICES_DATA = [
   {
     icon: icon2,
     title: 'Purchase Medication',
-    text: 'With Teacup, you can upload your prescriptions and get a preiodic refill.',
+    text: 'With Teacup, you can upload your prescriptions and get a preiodic refill',
   },
   {
     icon: icon3,
     title: 'Chat & Video Call',
-    text: 'Chat and Video call with your favorite consultants at your convinient time.',
+    text: 'Chat and Video call with your favorite consultants at your convinient time',
   },
   {
     icon: icon4,
     title: 'Book Appointments',
-    text: 'Book home visits and all other doctor appointements directly from our mobile apps.',
+    text: 'Book home visits and all other doctor appointements directly from our mobile apps',
   },
 ];
 
