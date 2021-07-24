@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx, Image } from 'theme-ui';
 import { Link } from 'components/link';
-import logo from 'assets/teacup-logo.svg';
+import logo from 'assets/medrite-logo.png';
 
 export default function Logo() {
   return (
@@ -13,8 +13,8 @@ export default function Logo() {
     >
       <Image
         src={logo}
-        sx={{ display: 'flex', width: 195, height: 40 }}
-        alt="teacup md logo"
+        sx={{ display: 'flex', width: 195, height: 70 }}
+        alt="medrite md logo"
       />
     </Link>
   );

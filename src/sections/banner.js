@@ -64,7 +64,7 @@ const styles = {
   banner: {
     pt: ['110px', null, null, null, '150px', '200px'],
     pb: ['50px', null, null, null, '60px', null, '0'],
-    backgroundColor: '#F6F8FB',
+    backgroundColor: '#fff',
     overflow: 'hidden',
   },
   container: {

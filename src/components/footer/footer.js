@@ -24,7 +24,7 @@ export default function Footer() {
           <div sx={{ width: 20 }}></div>
           <Text as="p">
             &copy; {new Date().getFullYear()} All right reserved - Design &
-            Developed by Teacup MD
+            Developed by Medrite
           </Text>
         </Box>
         <Box sx={styles.right}>

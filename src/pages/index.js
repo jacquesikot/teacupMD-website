@@ -19,7 +19,7 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
-          <SEO title="Teacup MD - Medical consultation at your figertips" />
+          <SEO title="Medrite - Medical consultation at your figertips" />
           <Banner />
           <Services />
           <BoostAgencies />

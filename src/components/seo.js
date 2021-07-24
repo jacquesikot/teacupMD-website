@@ -2,10 +2,10 @@ import React from 'react';
 import Head from 'next/head';
 
 export default function SEO({
-  description = 'Teacup MD Home',
-  author = 'Teacup MD',
+  description = 'Medrite Home',
+  author = 'Medrite',
   meta,
-  title = 'Teacup MD Landing Page',
+  title = 'Medrite Landing Page',
 }) {
   const metaData = [
     {
